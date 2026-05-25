@@ -186,15 +186,19 @@ function App() {
                 exploration
               </li>
             </ul>
-
-            <video className="project-video" controls>
-              <source src="/videos/vcu-tour-demo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-
+            
             <div className="project-links">
+              <a
+                href="https://youtu.be/REBGExb9ymY"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Watch Demo Video
+              </a>
+
               <a href="#contact">Ask Me About It</a>
             </div>
+            
           </article>
 
           <article id="rpg-game" className="project-card">

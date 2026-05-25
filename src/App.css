@@ -590,13 +590,6 @@
   background: var(--social-bg);
 }
 
-.project-video {
-  background: black;
-  max-height: 360px;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
 @media (max-width: 1024px) {
   .project-card-wide {
     grid-column: span 1;
